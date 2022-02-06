@@ -32,6 +32,7 @@ ___
 29. Создать переменную currency_convertor со значением item_2
 30. Сделать if в котором будет условие: если currency_convertor, то выполнять следующие шаги задания, иначе, вывести в консоль (“Переменная currency_convertor = ”, item_3)
 31. Внутри if currency_convertor сделать следующие If условия :
+    *
         1. Создать переменную currency_usd со значением usd_item
         2. Создать переменную target_currency со значением eur_item
         3. Создать переменную target_currency_amount значением 50
