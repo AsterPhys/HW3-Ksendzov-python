@@ -31,12 +31,12 @@ ___
 28. Сделать if в котором будет условие: если item_4, то вывести в консоль (“Переменная item_4 = ”, item_5), иначе, вывести в консоль (“Переменная item_4 = ”, item_4)
 29. Создать переменную currency_convertor со значением item_2
 30. Сделать if в котором будет условие: если currency_convertor, то выполнять следующие шаги задания, иначе, вывести в консоль (“Переменная currency_convertor = ”, item_3)
-31. Внутри if currency_convertor сделать следующие If условия :
+31. Внутри if currency_convertor сделать следующие If условия:
     1. Создать переменную currency_usd со значением usd_item
     2. Создать переменную target_currency со значением eur_item
     3. Создать переменную target_currency_amount значением 50
     4. Создать переменную currency_result со значением 0
     5. Сделать if в котором будет условие: если target_currency равен ‘eur’, то в теле этого if в значении переменной currency_result высчитать сколько долларов получится при target_currency_amount и usd_eur_rate. Результат вывести в консоль (target_currency_amount, eur_item, “=”, currency_result, usd_item)
-    6. Сделать elif в котором будет условие: если target_currency равен ‘uah’, то в теле этого if в значении переменной currency_result высчитать сколько долларов получится при target_currency_amount и usd_uah_rate. Результат вывести в консоль (target_currency_amount, uah_item, “=”, currency_result, uah_item)
+    6. Сделать elif в котором будет условие: если target_currency равен ‘uah’, то в теле этого if в значении переменной currency_result высчитать сколько долларов получится при target_currency_amount и usd_uah_rate. Результат вывести в консоль (target_currency_amount, uah_item, “=”, currency_result, usd_item)
     7. Сделать elif с остальными валютами
     8. Последним оставить else, при выполнений которого в консоль выведется (“Unknow currency”)
